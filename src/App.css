@@ -49,6 +49,17 @@
     bottom: 1.2rem;
     right: 23rem;    
 }
+
+.addform {
+  padding: 10px;
+  position: fixed;
+  border-radius: 50%;
+  top: 1.2rem;
+     
+}
+.slab{ 
+  margin-bottom: 10px;
+}
 .pixs {
   width: 300px;
 }
@@ -83,6 +94,11 @@
       padding: 0;
       box-sizing: border-box;
   
+  }
+  .slab{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
   }
   .additem {
     padding: 10px;
@@ -148,6 +164,13 @@
     border-radius: 8px;
     top: 2rem;
     right: 1rem; 
+  }
+  .addform {
+    padding: 10px;
+    position: fixed;
+    border-radius: 50%;
+    top: 1.2rem;
+    left: 3rem;    
   }
  
 }

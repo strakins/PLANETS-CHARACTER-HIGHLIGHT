@@ -3,7 +3,9 @@ import Button from 'react-bootstrap/Button'
 
 const PlanetForm = () => {
     return (
-        <div className="bg-dark text-info rounded-3 p-2 w-50">
+        <div className="bg-dark addform text-info rounded-3 p-2 w-50">
+            <div className="d-flex justify-content-end"><img src="images/x-square-fill.svg" alt="" className="buups"/></div>
+            <h1>Planet</h1>
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Image</Form.Label>
@@ -19,8 +21,8 @@ const PlanetForm = () => {
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
                 <div className="d-flex justify-content-end ">
-                <Button variant="primary" type="submit">Cancel</Button>
-                <Button variant="primary" type="submit" className="mx-2">Create Planet</Button>
+                <Button variant="primary" type="submit" className="pb-2 text2">Cancel</Button>
+                <Button variant="primary" type="submit" className="mx-2 text2">Create Planet</Button>
                 </div>                
             </Form>
         </div>

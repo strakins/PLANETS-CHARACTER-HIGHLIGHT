@@ -4,7 +4,11 @@ import Button from 'react-bootstrap/Button'
 
 const CharcterForm = () => {
     return (
-        <div className="bg-dark text-info rounded-3 p-2 w-50">
+        <div className="bg-dark addform text-info rounded-3 p-2 w-50">
+            <div>
+            <div className="d-flex justify-content-end"><img src="images/x-square-fill.svg" alt="" className="buups"/></div>
+            <h1>Character</h1>
+            </div>
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Image</Form.Label>
@@ -25,9 +29,9 @@ const CharcterForm = () => {
                     <option value="2">Rober Myrr</option>
                     <option value="3">Stone Brian</option>
                 </Form.Select>
-                <div className="d-flex justify-content-end ">
-                <Button variant="primary" type="submit">Cancel</Button>
-                <Button variant="primary" type="submit" className="mx-2">Create Character</Button>
+                <div className="d-flex justify-content-end">
+                <Button variant="primary" type="submit" className="pb-2 text2">Cancel</Button>
+                <Button variant="primary" type="submit" className="mx-2 text2">Create Character</Button>
                 </div>                
             </Form>
         </div>
