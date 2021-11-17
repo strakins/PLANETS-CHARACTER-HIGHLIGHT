@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kodecamp_stage7_react/static/css/main.798ea908.chunk.css",
-    "main.js": "/kodecamp_stage7_react/static/js/main.c4db3870.chunk.js",
-    "main.js.map": "/kodecamp_stage7_react/static/js/main.c4db3870.chunk.js.map",
+    "main.css": "/kodecamp_stage7_react/static/css/main.7666b549.chunk.css",
+    "main.js": "/kodecamp_stage7_react/static/js/main.5d42dc7b.chunk.js",
+    "main.js.map": "/kodecamp_stage7_react/static/js/main.5d42dc7b.chunk.js.map",
     "runtime-main.js": "/kodecamp_stage7_react/static/js/runtime-main.a4e358e1.js",
     "runtime-main.js.map": "/kodecamp_stage7_react/static/js/runtime-main.a4e358e1.js.map",
     "static/css/2.0a9ec390.chunk.css": "/kodecamp_stage7_react/static/css/2.0a9ec390.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.aa1a57c1.chunk.js.map": "/kodecamp_stage7_react/static/js/3.aa1a57c1.chunk.js.map",
     "index.html": "/kodecamp_stage7_react/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/kodecamp_stage7_react/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.798ea908.chunk.css.map": "/kodecamp_stage7_react/static/css/main.798ea908.chunk.css.map",
+    "static/css/main.7666b549.chunk.css.map": "/kodecamp_stage7_react/static/css/main.7666b549.chunk.css.map",
     "static/js/2.2a376ac5.chunk.js.LICENSE.txt": "/kodecamp_stage7_react/static/js/2.2a376ac5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a4e358e1.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.2a376ac5.chunk.js",
-    "static/css/main.798ea908.chunk.css",
-    "static/js/main.c4db3870.chunk.js"
+    "static/css/main.7666b549.chunk.css",
+    "static/js/main.5d42dc7b.chunk.js"
   ]
 }
