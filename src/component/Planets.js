@@ -1,11 +1,13 @@
 import Button from 'react-bootstrap/Button'
 import SideBar from './SideBar'
 import { useState } from 'react'
+import PlanetForm from './PlanetForm'
 
 
 const Planets = ({planet}) => {
 
     const [isAppear, setAppear] = useState(false)
+    const [isLit, setLit] = useState(false)
 
     let planetCon = [
         {   id: 1,
@@ -85,9 +87,9 @@ const Planets = ({planet}) => {
                     ))
                 }
             </div>
-            
             <div>
-                <Button variant="dark" className="additem"><img src="images/plus_lg.svg" alt="" className="buups" /> </Button>
+                <Button variant="dark" className="additem" ><img src="images/plus_lg.svg" alt="" className="buups" onClick={()=> setLit(true)} />  </Button>
+                {isLit ? <PlanetForm/> : "" }
             </div> 
         </div>
     )

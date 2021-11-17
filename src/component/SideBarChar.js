@@ -1,12 +1,15 @@
 import React from 'react'
 
 
+
 const SideBarChar = () => {
+
+    
 
     return (
         <div>
             <div className="sidebar p-3">
-
+            
             <div className="d-flex justify-content-end"><img src="images/x-square-fill.svg" alt="" className="buups"/></div>
             <div className="pt-4">
                 <h3 className="fw-bold">Jane Cooper</h3>

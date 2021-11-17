@@ -1,12 +1,14 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
 import SideBarChar from './SideBarChar'
+import CharcterForm from './CharcterForm'
 import { useState } from 'react'
 
 
 const IconsCharacter = () => {
     
     const [isUp, setUp] = useState(false)
+    const [isLit, setLit] = useState(false)
 
     let persons = [
         {
@@ -98,7 +100,8 @@ const IconsCharacter = () => {
                 }
             </div>
             <div>
-                <Button variant="dark" className="additem"><img src="images/plus_lg.svg" alt="" className="buups" /> </Button>
+                <Button variant="dark" className="additem"><img src="images/plus_lg.svg" alt="" className="buups" onClick={()=> setLit(true)} /> </Button>
+                {isLit ? < CharcterForm /> : "" }
             </div> 
             
         </div>
