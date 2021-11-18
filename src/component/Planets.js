@@ -17,33 +17,33 @@ const Planets = ({planet}) => {
         },
         {   id: 2,
             image: 'images/planet_5.svg',
-            planet: 'Planet Crunos',
-            likes:    '240'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 3,
             image: 'images/planet_1.svg',
-            planet: 'Planet Pluto',
-            likes:    '460'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 4,
             image: 'images/planet_3.svg',
-            planet: 'Planet Homes',
-            likes:    '206'
+            planet: 'Planet Alphas',
+            likes:    '235'
         },
         {   id: 5,
             image: 'images/planet_7.svg',
-            planet: 'Planet Dupey',
-            likes:    '431'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 6,
             image: 'images/planet_9.svg',
-            planet: 'Planet Crunos',
-            likes:    '751'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 7,
             image: 'images/planet_8.svg',
-            planet: 'Planet Pluto',
-            likes:    '230'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 8,
             image: 'images/planet_1.svg',
@@ -52,18 +52,18 @@ const Planets = ({planet}) => {
         },
         {   id: 9,
             image: 'images/planet_2.svg',
-            planet: 'Planet Prinax',
-            likes:    '125'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 10,
             image: 'images/planet_5.svg',
-            planet: 'Planet Jepoti',
-            likes:    '450'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 11,
             image: 'images/planet_7.svg',
-            planet: 'Planet Pluto',
-            likes:    '460'
+            planet: 'Planet Alpha',
+            likes:    '235'
         },
         {   id: 12,
             image: 'images/planet_3.svg',

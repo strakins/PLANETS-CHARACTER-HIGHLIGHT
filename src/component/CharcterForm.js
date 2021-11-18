@@ -1,8 +1,10 @@
 import Form from 'react-bootstrap/Form'
+
 import Button from 'react-bootstrap/Button'
 
 
 const CharcterForm = () => {
+
     return (
         <div className="bg-dark addform text-info rounded-3 p-2 w-50">
             <div>

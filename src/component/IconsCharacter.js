@@ -9,6 +9,14 @@ const IconsCharacter = () => {
     
     const [isUp, setUp] = useState(false)
     const [isLit, setLit] = useState(false)
+    const [value, setValue] = useState({})
+    const rollit = ( person ) => {
+        setUp(true)
+        setValue({ name : person.name,
+            friend: person.friend })
+        console.log(person)
+        console.log(value.name)
+      }
 
     let persons = [
         {
@@ -89,11 +97,11 @@ const IconsCharacter = () => {
             <div className="d-flex flex-wrap pt-4">
                 {
                     persons.map(person => (
-                        <div className="berry1 mx-2" key={person.id} onClick={()=> setUp(true)}>
+                        <div className="berry1 mx-2" key={person.id} onClick={(e) => rollit( person )}>
                             <div className="text-center"><img src={person.perimg} alt="" className="image1"/></div>
                             <h5 className="px-2">{person.name}</h5>
                             <h6 className="px-2">Friends: {person.friend}</h6>
-                            {isUp ? <SideBarChar/> : "" }
+                            {isUp ? <SideBarChar name={value.name} friend={value.friend} /> : "" }
                         </div>
                         
                     ))

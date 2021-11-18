@@ -2,17 +2,16 @@ import React from 'react'
 
 
 
-const SideBarChar = () => {
 
-    
+const SideBarChar = ({name, friend }) => {
 
     return (
         <div>
             <div className="sidebar p-3">
             
-            <div className="d-flex justify-content-end"><img src="images/x-square-fill.svg" alt="" className="buups"/></div>
+            <div className="d-flex justify-content-end"><img src="images/x-square-fill.svg" alt="" /></div>
             <div className="pt-4">
-                <h3 className="fw-bold">Jane Cooper</h3>
+                <h3 className="fw-bold">{name}</h3>
                 <p className="text1">Jane is really a nice Person. She's been
                     living on planet Alpha for 10 years
                 </p>
@@ -23,7 +22,7 @@ const SideBarChar = () => {
                     </div>
                     <div className="mx-4">
                         <h5 className="text2">Friends</h5>
-                        <h5 className="text2 fw-bold">23</h5>
+                        <h5 className="text2 fw-bold">{friend}</h5>
                     </div>
                 </div>
             </div>
@@ -76,6 +75,22 @@ const SideBarChar = () => {
 
         </div>
         </div>
+
+
+    // console.log(friends)
+    // friend.map(f => {
+    //     return            
+    //      <div className="d-flex flex-row p-3" key={f.name}>
+        
+    //     <div>
+    //         <strong>{f.name}</strong>
+    //         <p>{friend.length} Friends</p>
+    //     </div>
+    // </div>
+    // })
+
+
+      
     )
 }
 
